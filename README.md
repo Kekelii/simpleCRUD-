@@ -12,7 +12,7 @@ Before you can get started, make sure you have Node.js and npm installed on your
 npm install
 
 Database Configuration
-You need to provide your MongoDB cluster password as an environment variable named dbPassword.
+You need to provide your MongoDB cluster password as an environment variable named dbPassword and a mongodb url in the '/db/db_connection' file.
 You can also specify the port for the server to listen on by setting the PORT environment variable. By default, the server will listen on port 3000.
 Example:
 
